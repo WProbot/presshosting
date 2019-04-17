@@ -11,6 +11,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {                                                                  
+    "docs:build": "vuepress build docs"
+  },
+  "NETLIFYscripts": {                                                                  
     "docs:dev": "vuepress dev",                                            
     "docs:build": "vuepress build"
   },
