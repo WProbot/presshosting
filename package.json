@@ -3,13 +3,19 @@
   "version": "1.0.0",
   "description": "Vuepress source for presshosting.com",
   "main": "index.js",
-  "repository": "https://github.com/tomcam/presshosting.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomcam/apitut.git"
+  },
   "author": "Tom Campbell <tomcampbell@gmail.com>",
   "license": "MIT",
   "private": true,
   "scripts": {                                                                  
-    "docs:dev": "vuepress dev docs",                                            
-    "docs:build": "vuepress build docs"                                         
+    "docs:dev": "vuepress dev",                                            
+    "docs:build": "vuepress build"                                         
   }                                                                             
-
+  "homepage": "https://github.com/tomcam/presshosting#readme",
+  "dependencies": {
+    "vuepress": "^0.14.0"
+  }
 }
