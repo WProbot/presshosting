@@ -13,7 +13,7 @@
   "scripts": {                                                                  
     "docs:dev": "vuepress dev",                                            
     "docs:build": "vuepress build",
-  }
+  },
   "homepage": "https://github.com/tomcam/presshosting#readme",
   "dependencies": {
     "vuepress": "^0.14.0"
